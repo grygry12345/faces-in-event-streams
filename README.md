@@ -38,7 +38,7 @@ To run inference for face bounding box model, use the following command:
 ```
 python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model --record_file <RAW file to process> --display
 ```
-alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/samples/detection_and_tracking_inference.html#chapter-sdk-ml-detection-and-tracking-inference) link.
+alternatively you can proceed with instructions from [this](https://docs.prophesee.ai/stable/samples/modules/ml/detection_and_tracking_inference_py.html?highlight=detection_and_tracking_pipeline) link.
 
 - #### Training
 Before launching training, please place label_map_dictionary.json, which comes as part of this repo, in the same folder where your train/val/test folders are located.
@@ -49,7 +49,7 @@ cd <path to train_detection.py>
 python3 train_detection.py <path to output directory> <path to dataset>
 ```
 
-alternatively, you can follow instructions from [here](https://docs.prophesee.ai/stable/metavision_sdk/modules/ml/quick_start/index.html#training).
+alternatively, you can follow instructions from [here](https://docs.prophesee.ai/stable/samples/modules/ml/train_detection.html#chapter-samples-ml-train-detection).
 
 2. To select the feature extractor, you need to define --feature_extractor option using:
 ```

@@ -1,8 +1,0 @@
-
-train_detection.py
-
-https://docs.prophesee.ai/stable/samples/modules/ml/train_detection.html#chapter-samples-ml-train-detection
-
-
-detection_and_tracking_pipeline.py
-https://docs.prophesee.ai/stable/samples/modules/ml/detection_and_tracking_inference_py.html?highlight=detection_and_tracking_pipeline
