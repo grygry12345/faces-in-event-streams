@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "detection_and_tracking_pipeline.py",
             "console": "integratedTerminal",
-            "justMyCode": false,
+            "justMyCode": true,
             "args": [
                 "--object_detector_dir", "models/torchmodels_fl+bb/model_with_ResNet-18",
                 "--record_file", "datasets_raw/1.raw",
@@ -23,7 +23,7 @@
             "request": "launch",
             "program": "detection_and_tracking_pipeline.py",
             "console": "integratedTerminal",
-            "justMyCode": false,
+            "justMyCode": true,
             "args": [
                 "--object_detector_dir", "models/torchmodels_bb/model_with_orig_extractor",
                 "--record_file", "datasets_preprocessed/20210930_0/20210930_0_0.h5",
@@ -36,7 +36,7 @@
             "request": "launch",
             "program": "train_detection.py",
             "console": "integratedTerminal",
-            "justMyCode": false,
+            "justMyCode": true,
             "args": [
                 "out", "preprocessed_dataset"
             ] 
